@@ -1,12 +1,16 @@
 import React from 'react'
 import {createRoot} from 'react-dom/client'
+import ToggleExample from './examples/ToogleExample'
+
 
 // Temporary dev playground
 const App = () => {
-  return <h1>React Hooks Wallet</h1>
+  return <ToggleExample/>
 }
 
 createRoot(document.getElementById('root'))
 .render(
+    <React.StrictMode>
     <App />
+    </React.StrictMode>
 )
