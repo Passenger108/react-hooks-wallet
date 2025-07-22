@@ -1,11 +1,11 @@
 import React from 'react'
 import {createRoot} from 'react-dom/client'
-import LocalStorageExample from './examples/LocalStorageExample'
+import UpdateEffectExample from './examples/UpdateEffectExample'
 
 
 // Temporary dev playground
 const App = () => {
-  return <LocalStorageExample/>
+  return <UpdateEffectExample/>
 }
 
 createRoot(document.getElementById('root'))
