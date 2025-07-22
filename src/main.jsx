@@ -1,11 +1,11 @@
 import React from 'react'
 import {createRoot} from 'react-dom/client'
-import ToggleExample from './examples/ToogleExample'
+import CounterExample from './examples/CounterExample'
 
 
 // Temporary dev playground
 const App = () => {
-  return <ToggleExample/>
+  return <CounterExample/>
 }
 
 createRoot(document.getElementById('root'))
