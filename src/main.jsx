@@ -1,11 +1,11 @@
 import React from 'react'
 import {createRoot} from 'react-dom/client'
-import ScrollExample from './hooks/useScroll/ScrollExample'
+import DebounceExample from './hooks/useDebounce/DebounceExample'
 
 
 // Temporary dev playground
 const App = () => {
-  return <ScrollExample/>
+  return <DebounceExample/>
 }
 
 createRoot(document.getElementById('root'))
