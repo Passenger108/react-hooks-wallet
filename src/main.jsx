@@ -1,11 +1,11 @@
 import React from 'react'
 import {createRoot} from 'react-dom/client'
-import MediaQueryExample from './examples/MediaQueryExample'
+import ScrollExample from './examples/ScrollExample'
 
 
 // Temporary dev playground
 const App = () => {
-  return <MediaQueryExample/>
+  return <ScrollExample/>
 }
 
 createRoot(document.getElementById('root'))
