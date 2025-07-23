@@ -1,11 +1,11 @@
 import React from 'react'
 import {createRoot} from 'react-dom/client'
-import CounterReducer from './examples/CounterReducer'
+import MediaQueryExample from './examples/MediaQueryExample'
 
 
 // Temporary dev playground
 const App = () => {
-  return <CounterReducer/>
+  return <MediaQueryExample/>
 }
 
 createRoot(document.getElementById('root'))
