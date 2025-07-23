@@ -1,11 +1,11 @@
 import React from 'react'
 import {createRoot} from 'react-dom/client'
-import UpdateEffectExample from './examples/UpdateEffectExample'
+import CounterReducer from './examples/CounterReducer'
 
 
 // Temporary dev playground
 const App = () => {
-  return <UpdateEffectExample/>
+  return <CounterReducer/>
 }
 
 createRoot(document.getElementById('root'))
