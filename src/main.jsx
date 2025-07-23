@@ -1,6 +1,6 @@
 import React from 'react'
 import {createRoot} from 'react-dom/client'
-import ScrollExample from './examples/ScrollExample'
+import ScrollExample from './hooks/useScroll/ScrollExample'
 
 
 // Temporary dev playground

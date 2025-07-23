@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import useScroll from "../hooks/useScroll";
+import useScroll from "./useScroll";
 
 export default function ScrollExample() {
   const divRef = useRef(null);
