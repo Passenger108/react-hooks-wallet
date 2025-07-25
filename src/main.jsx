@@ -1,11 +1,11 @@
 import React from 'react'
 import {createRoot} from 'react-dom/client'
-import DebounceExample from './hooks/useDebounce/DebounceExample'
+import GeolocationExample from './hooks/useGeolocation/GeolocationExample'
 
 
 // Temporary dev playground
 const App = () => {
-  return <DebounceExample/>
+  return <GeolocationExample/>
 }
 
 createRoot(document.getElementById('root'))

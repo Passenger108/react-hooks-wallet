@@ -5,25 +5,26 @@ Developing ...
 
 ##  This Library is under Developement !! 
 
-# 11 out of 45 are implemented
+# 12 out of 45 are implemented
 
 
 
 # ✅ Already Implemented by You
 
-| Hook Name           | React Built-in Hooks Used      |
-|---------------------|-------------------------------|
-| useCounter          | useState                      |
-| useCounterReducer   | useReducer                    |
-| useDebounce         | useState, useEffect           |
-| useFetch            | useState, useEffect           |
-| useLocalStorage     | useState, useEffect           |
-| useMediaQuery       | useState, useEffect           |
-| usePrevious         | useRef, useEffect             |
-| useScroll           | useState, useEffect           |
-| useThrottle         | useState, useEffect, useRef   |
-| useToggle           | useState                      |
-| useUpdateEffect     | useEffect, useRef             |
+| Hook Name           | React Built-in Hooks Used               |
+|---------------------|-------------------------------          |
+| useCounter          | useState                                |
+| useCounterReducer   | useReducer                              |
+| useDebounce         | useState, useEffect                     |
+| useFetch            | useState, useEffect                     |
+| useLocalStorage     | useState, useEffect                     |
+| useMediaQuery       | useState, useEffect                     |
+| usePrevious         | useRef, useEffect                       |
+| useScroll           | useState, useEffect                     |
+| useThrottle         | useState, useEffect, useRef             |
+| useToggle           | useState                                |
+| useUpdateEffect     | useEffect, useRef                       |
+| useGeolocation      | useEffect, useState, useReducer         |
 
 
 ⸻
@@ -35,7 +36,6 @@ These hooks help me interface imperative browser APIs with React declarative mod
 | Hook Name                | Browser API Used                                   | React Built-in Hooks Used                |
 |--------------------------|----------------------------------------------------|------------------------------------------|
 | useOnlineStatus          | navigator.onLine, window.online/offline            | useState, useEffect                      |
-| useGeolocation           | navigator.geolocation                              | useState, useEffect                      |
 | useBatteryStatus         | navigator.getBattery()                             | useState, useEffect                      |
 | usePageVisibility        | document.visibilityState                           | useState, useEffect                      |
 | useClipboard             | navigator.clipboard                                | useState, useEffect                      |
