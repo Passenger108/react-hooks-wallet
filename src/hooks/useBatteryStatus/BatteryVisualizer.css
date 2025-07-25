@@ -1,0 +1,80 @@
+.battery-container {
+  max-width: 300px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: #121212;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.battery {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background: #333;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.battery::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: -10px;
+  width: 6px;
+  height: 16px;
+  background: #ccc;
+  border-radius: 2px;
+}
+
+.battery-level {
+  height: 100%;
+  background: linear-gradient(to right, #4caf50, #76ff03);
+  transition: width 0.4s ease-in-out;
+}
+
+.battery.charging .battery-level {
+  background: repeating-linear-gradient(
+    45deg,
+    #76ff03,
+    #76ff03 10px,
+    #4caf50 10px,
+    #4caf50 20px
+  );
+  animation: charge-fill 2s infinite linear;
+}
+
+@keyframes charge-fill {
+  0% { background-position: 0 0; }
+  100% { background-position: 40px 0; }
+}
+
+.charging-icon {
+  position: absolute;
+  top: -25px;
+  right: 10px;
+  font-size: 24px;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(1); opacity: 0.8; }
+}
+
+.battery-info p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.error-msg {
+  text-align: center;
+  margin-top: 2rem;
+  color: red;
+  font-weight: bold;
+}

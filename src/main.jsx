@@ -1,11 +1,11 @@
 import React from 'react'
 import {createRoot} from 'react-dom/client'
-import GeolocationExample from './hooks/useGeolocation/GeolocationExample'
+import BatteryVisualizer from './hooks/useBatteryStatus/BatteryVisualizer'
 
 
 // Temporary dev playground
 const App = () => {
-  return <GeolocationExample/>
+  return <BatteryVisualizer/>
 }
 
 createRoot(document.getElementById('root'))
