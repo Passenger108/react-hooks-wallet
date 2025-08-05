@@ -1,11 +1,11 @@
 import React from 'react'
 import {createRoot} from 'react-dom/client'
-import FullscreenExample from './hooks/useFullscreen/FullscreenExample' ;
+import IdleExample from './hooks/useIdle/IdleExample' ;
 
 
 // Temporary dev playground
 const App = () => {
-  return <FullscreenExample/>
+  return <IdleExample/>
 }
 
 createRoot(document.getElementById('root'))
