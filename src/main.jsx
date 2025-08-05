@@ -1,11 +1,11 @@
 import React from 'react'
 import {createRoot} from 'react-dom/client'
-import PageVisibilityExample from './hooks/usePageVisibility/PageVisibilityExample' ;
+import FullscreenExample from './hooks/useFullscreen/FullscreenExample' ;
 
 
 // Temporary dev playground
 const App = () => {
-  return <PageVisibilityExample/>
+  return <FullscreenExample/>
 }
 
 createRoot(document.getElementById('root'))

@@ -5,11 +5,11 @@ Developing ...
 
 ##  This Library is under Developement !! 
 
-# 16 out of 45 are implemented
+# 17 out of 45 are implemented
 
 
 
-# ✅ Already Implemented by You
+# ✅ Already Implemented by me
 
 | Hook Name           | React Built-in Hooks Used               |
 |---------------------|-------------------------------          |
@@ -39,7 +39,7 @@ These hooks help me interface imperative browser APIs with React declarative mod
 |--------------------------|----------------------------------------------------|------------------------------------------|
 | useOnlineStatus    ✅    | navigator.onLine, window.online/offline            | useState, useEffect                      |
 | usePageVisibility  ✅    | document.visibilityState                           | useState, useEffect                      |
-| useFullscreen            | document.fullscreenElement, etc.                   | useState, useCallback, useRef, useEffect |
+| useFullscreen      ✅     | document.fullscreenElement, etc.                   | useState, useCallback, useRef, useEffect |
 | useIdle                  | setTimeout, user events                            | useState, useEffect, useRef              |
 | useWindowSize            | window.innerWidth/Height, resize                   | useState, useEffect                      |
 | useIntersectionObserver  | IntersectionObserver                               | useState, useEffect, useRef              |
