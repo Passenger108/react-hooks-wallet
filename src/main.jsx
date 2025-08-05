@@ -1,11 +1,11 @@
 import React from 'react'
 import {createRoot} from 'react-dom/client'
-import OnlineStatusExample from './hooks/useOnlineStatus/OnlineStatusExample'
+import PageVisibilityExample from './hooks/usePageVisibility/PageVisibilityExample' ;
 
 
 // Temporary dev playground
 const App = () => {
-  return <OnlineStatusExample/>
+  return <PageVisibilityExample/>
 }
 
 createRoot(document.getElementById('root'))

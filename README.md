@@ -5,7 +5,7 @@ Developing ...
 
 ##  This Library is under Developement !! 
 
-# 14 out of 45 are implemented
+# 16 out of 45 are implemented
 
 
 
@@ -37,8 +37,8 @@ These hooks help me interface imperative browser APIs with React declarative mod
 
 | Hook Name                | Browser API Used                                   | React Built-in Hooks Used                |
 |--------------------------|----------------------------------------------------|------------------------------------------|
-| useOnlineStatus          | navigator.onLine, window.online/offline            | useState, useEffect                      |
-| usePageVisibility        | document.visibilityState                           | useState, useEffect                      |
+| useOnlineStatus    ✅    | navigator.onLine, window.online/offline            | useState, useEffect                      |
+| usePageVisibility  ✅    | document.visibilityState                           | useState, useEffect                      |
 | useFullscreen            | document.fullscreenElement, etc.                   | useState, useCallback, useRef, useEffect |
 | useIdle                  | setTimeout, user events                            | useState, useEffect, useRef              |
 | useWindowSize            | window.innerWidth/Height, resize                   | useState, useEffect                      |

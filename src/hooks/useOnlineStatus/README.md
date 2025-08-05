@@ -27,36 +27,36 @@ This hook listens to browser events and updates the component whenever the userâ
 
 ## API
 
-const { onlineStatus, error } = useOnlineStatus();
+    const { onlineStatus, error } = useOnlineStatus();
 
-Return Value	Type	Description
-onlineStatus	boolean	true if online, false if offline
-error	{ message: string } | null	Error object if API unsupported, else null
+    Return Value	Type	Description
+    onlineStatus	boolean	true if online, false if offline
+    error	{ message: string } | null	Error object if API unsupported, else null
 
 
 
 
 ## Usage Example
 
-import useOnlineStatus from './useOnlineStatus';
+        import useOnlineStatus from './useOnlineStatus';
 
-export default function OnlineStatusComponent() {
-  const { onlineStatus, error } = useOnlineStatus();
+        export default function OnlineStatusComponent() {
+        const { onlineStatus, error } = useOnlineStatus();
 
-  if (error) {
-    return <p>\u274c Error: {error.message}</p>;
-  }
+        if (error) {
+            return <p>\u274c Error: {error.message}</p>;
+        }
 
-  return (
-    <div>
-      {onlineStatus ? (
-        <p style={{ color: 'green' }}>\ud83d\udfe2 You are Online!</p>
-      ) : (
-        <p style={{ color: 'red' }}>\ud83d\udd34 You are Offline!</p>
-      )}
-    </div>
-  );
-}
+        return (
+            <div>
+            {onlineStatus ? (
+                <p style={{ color: 'green' }}>\ud83d\udfe2 You are Online!</p>
+            ) : (
+                <p style={{ color: 'red' }}>\ud83d\udd34 You are Offline!</p>
+            )}
+            </div>
+        );
+        }
 
 
 
