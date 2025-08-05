@@ -1,11 +1,11 @@
 import React from 'react'
 import {createRoot} from 'react-dom/client'
-import BatteryVisualizer from './hooks/useBatteryStatus/BatteryVisualizer'
+import OnlineStatusExample from './hooks/useOnlineStatus/OnlineStatusExample'
 
 
 // Temporary dev playground
 const App = () => {
-  return <BatteryVisualizer/>
+  return <OnlineStatusExample/>
 }
 
 createRoot(document.getElementById('root'))
