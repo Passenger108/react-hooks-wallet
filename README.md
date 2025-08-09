@@ -5,7 +5,7 @@ Developing ...
 
 ##  This Library is under Developement !! 
 
-# 18 out of 45 are implemented
+# 20 out of 45 are implemented
 
 
 
@@ -41,7 +41,7 @@ These hooks help me interface imperative browser APIs with React declarative mod
 | usePageVisibility  ✅    | document.visibilityState                           | useState, useEffect                      |
 | useFullscreen      ✅     | document.fullscreenElement, etc.                   | useState, useCallback, useRef, useEffect |
 | useIdle            ✅     | setTimeout, user events                            | useState, useEffect, useRef              |
-| useWindowSize            | window.innerWidth/Height, resize                   | useState, useEffect                      |
+| useWindowSize       ✅     | window.innerWidth/Height, resize                   | useState, useEffect                      |
 | useIntersectionObserver  | IntersectionObserver                               | useState, useEffect, useRef              |
 | useSpeechRecognition     | SpeechRecognition API                              | useState, useEffect, useRef              |
 
@@ -63,7 +63,7 @@ These strengthen your command over React internal patterns and lifecycle behavio
 | useMeasure           | ResizeObserver, measuring elements      | useState, useRef, useEffect        |
 | useMountedState      | Safe async state updates                | useRef, useCallback                |
 | useUpdateLogger      | Logging props/state changes             | useEffect, useRef                  |
-| useTimeout           | Imperative timer control                | useRef, useEffect, useCallback     |
+| useTimeout    ✅       | Imperative timer control                | useRef, useEffect, useCallback     |
 
 
 
