@@ -1,4 +1,4 @@
-# 📚 React Hooks Wallet
+# 📚 React Hooks Wallet — **SUPER 20**: A React Library
 
 A **personal learning project** where I explored **React's built-in hooks** and **various browser APIs** to understand how things work imperatively, and then re-implemented them in a **more React way** using my own custom hooks.  
 
