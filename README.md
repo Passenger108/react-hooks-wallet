@@ -1,15 +1,6 @@
 ### React-hooks-Wallet 
-    > 🚧 **This project is a React utility library and is currently under development. Stay tuned for updates!**
 
-Developing ...
-
-##  This Library is under Developement !! 
-
-# 20 out of 45 are implemented
-
-
-
-# ✅ Already Implemented by me
+# ✅ 20 hooks implemented in this library
 
 | Hook Name           | React Built-in Hooks Used               |
 |---------------------|-------------------------------          |
@@ -27,30 +18,25 @@ Developing ...
 | useGeolocation      | useEffect, useState, useReducer         |
 | useClipboard        | useEffect, useState, useCallback        |
 | useBatteryStatus    | useState, useEffect                     |
-
+| useOnlineStatus        |  useState, useEffect                      |
+| usePageVisibility      |  useState, useEffect                      |
+| useFullscreen           | useState, useCallback, useRef, useEffect |
+| useIdle                 | useState, useEffect, useRef              |
+| useTimeout           | useRef, useEffect, useCallback     |
+| useWindowSize            | useState, useEffect                      |
 
 ⸻
 
-# 🧠 Browser API Integration Hooks (my next Focus in this journey! 😍)
+# for future learning and revision
 
-These hooks help me interface imperative browser APIs with React declarative model.
+* 🧠 Browser API Integration Hooks 
 
 | Hook Name                | Browser API Used                                   | React Built-in Hooks Used                |
 |--------------------------|----------------------------------------------------|------------------------------------------|
-| useOnlineStatus    ✅    | navigator.onLine, window.online/offline            | useState, useEffect                      |
-| usePageVisibility  ✅    | document.visibilityState                           | useState, useEffect                      |
-| useFullscreen      ✅     | document.fullscreenElement, etc.                   | useState, useCallback, useRef, useEffect |
-| useIdle            ✅     | setTimeout, user events                            | useState, useEffect, useRef              |
-| useWindowSize       ✅     | window.innerWidth/Height, resize                   | useState, useEffect                      |
 | useIntersectionObserver  | IntersectionObserver                               | useState, useEffect, useRef              |
 | useSpeechRecognition     | SpeechRecognition API                              | useState, useEffect, useRef              |
 
-
-⸻
-
-# ⚛️ React-Specific Custom Hooks (Deepen React Understanding) (my next to  next focus! 😍😎)
-
-These strengthen your command over React internal patterns and lifecycle behaviors.
+* ⚛️ React-Specific Custom Hooks
 
 | Hook Name            | React Concepts Practiced                | Built-in Hooks Used                |
 |----------------------|-----------------------------------------|------------------------------------|
@@ -63,14 +49,8 @@ These strengthen your command over React internal patterns and lifecycle behavio
 | useMeasure           | ResizeObserver, measuring elements      | useState, useRef, useEffect        |
 | useMountedState      | Safe async state updates                | useRef, useCallback                |
 | useUpdateLogger      | Logging props/state changes             | useEffect, useRef                  |
-| useTimeout    ✅       | Imperative timer control                | useRef, useEffect, useCallback     |
 
-
-
-
-
-
-# ✅ Custom Hooks Using Advanced Built-in Hooks (if I survived the boredom of hOOks 🥹😩 )
+* ✅ Custom Hooks Using Advanced Built-in Hooks
 
 | Custom Hook             | Built-in Hook(s) Used                                 |
 |------------------------ |------------------------------------------------------|
@@ -85,13 +65,4 @@ These strengthen your command over React internal patterns and lifecycle behavio
 | useStableId             | useId                                                |
 | useLayoutBounds         | useLayoutEffect                                      |
 
-
-# 🌟 Bonus Combined Hooks ( if i did not die till now due to hooks poisoning!!🫡)
-
-| Custom Hook                | Built-in Hook(s) Used                                 |
-|----------------------------|------------------------------------------------------|
-| useSmartTable              | useMemo, useCallback, useDeferredValue, useTransition|
-| useFormValidation          | useCallback, useImperativeHandle, useDebugValue      |
-| useResponsiveCssVar        | useMediaQuery, useInsertionEffect                    |
-| useSSRHydrationSafeId      | useId, useEffect                                     |
 
