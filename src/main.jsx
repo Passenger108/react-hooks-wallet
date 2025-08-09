@@ -1,11 +1,11 @@
 import React from 'react'
 import {createRoot} from 'react-dom/client'
-import TimeoutExample from './hooks/useTimeout/TimeoutExample' ;
+import Example from './hooks/useWindowSize/Example' ;
 
 
 // Temporary dev playground
 const App = () => {
-  return <TimeoutExample/>
+  return <Example/>
 }
 
 createRoot(document.getElementById('root'))
